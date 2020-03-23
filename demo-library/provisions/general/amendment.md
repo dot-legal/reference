@@ -1,0 +1,1 @@
+This document may be amended or modified from time to time only by the written agreement of all the Parties.

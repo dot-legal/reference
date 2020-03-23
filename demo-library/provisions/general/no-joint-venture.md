@@ -1,0 +1,1 @@
+Nothing contained in this document, nor the acts of the Parties hereto, shall create, or be construed to create, a partnership or joint venture relationship between the Parties.

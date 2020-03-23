@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/@vue/composition-api/dist/vue-composition-api.umd.js"></script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/10.0.0/markdown-it.min.js"
+    integrity="sha256-YASERpEeN8gRNr/Fy4Km34WGFqIq1h6HkJMAQnVHlhk=" crossorigin="anonymous"></script>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Yesteryear&display=swap" rel="stylesheet">
+</head>
+
+
+<style>
+  html.fp-enabled,
+  .fp-enabled body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    /*Avoid flicker on slides transitions for mobile phones #336 */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  .fp-section {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box;
+    /* <=28 */
+    box-sizing: border-box;
+  }
+
+  .fp-slide {
+    float: left;
+  }
+
+  .fp-slide,
+  .fp-slidesContainer {
+    height: 100%;
+    display: block;
+  }
+
+  .fp-slides {
+    z-index: 1;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out;
+    /* Safari<=6 Android<=4.3 */
+    transition: all 0.3s ease-out;
+  }
+
+  .fp-section.fp-table,
+  .fp-slide.fp-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fp-slidesContainer {
+    float: left;
+    position: relative;
+  }
+
+  .fp-controlArrow {
+    -webkit-user-select: none;
+    /* webkit (safari, chrome) browsers */
+    -moz-user-select: none;
+    /* mozilla browsers */
+    -khtml-user-select: none;
+    /* webkit (konqueror) browsers */
+    -ms-user-select: none;
+    /* IE10+ */
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .fp-controlArrow.fp-prev {
+    margin-left: 40px;
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+
+  .fp-controlArrow.fp-next {
+    margin-right: 40px;
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #fff;
+  }
+
+  .fp-scrollable {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .fp-scroller {
+    overflow: hidden;
+  }
+
+  .iScrollIndicator {
+    border: 0 !important;
+  }
+
+  .fp-notransition {
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+
+  #fp-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  #fp-nav.right {
+    right: 17px;
+  }
+
+  #fp-nav.left {
+    left: 17px;
+  }
+
+  .fp-slidesNav {
+    position: absolute;
+    z-index: 4;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0 !important;
+    right: 0;
+    margin: 0 auto !important;
+  }
+
+  .fp-slidesNav.bottom {
+    bottom: 17px;
+  }
+
+  .fp-slidesNav.top {
+    top: 17px;
+  }
+
+  #fp-nav ul,
+  .fp-slidesNav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #fp-nav ul li,
+  .fp-slidesNav ul li {
+    display: block;
+    width: 14px;
+    height: 13px;
+    margin: 7px;
+    position: relative;
+  }
+
+  .fp-slidesNav ul li {
+    display: inline-block;
+  }
+
+  #fp-nav ul li a,
+  .fp-slidesNav ul li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #fp-nav ul li a.active span,
+  .fp-slidesNav ul li a.active span,
+  #fp-nav ul li:hover a.active span,
+  .fp-slidesNav ul li:hover a.active span {
+    height: 12px;
+    width: 12px;
+    margin: -6px 0 0 -6px;
+    border-radius: 100%;
+  }
+
+  #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background: #333;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+
+  #fp-nav ul li:hover a span,
+  .fp-slidesNav ul li:hover a span {
+    width: 10px;
+    height: 10px;
+    margin: -5px 0px 0px -5px;
+  }
+
+  #fp-nav ul li .fp-tooltip {
+    position: absolute;
+    top: -2px;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+    width: 0;
+    cursor: pointer;
+  }
+
+  #fp-nav ul li:hover .fp-tooltip,
+  #fp-nav.fp-show-active a.active+.fp-tooltip {
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+    width: auto;
+    opacity: 1;
+  }
+
+  #fp-nav ul li .fp-tooltip.right {
+    right: 20px;
+  }
+
+  #fp-nav ul li .fp-tooltip.left {
+    left: 20px;
+  }
+
+  .fp-auto-height.fp-section,
+  .fp-auto-height .fp-slide,
+  .fp-auto-height .fp-tableCell {
+    height: auto !important;
+  }
+
+  .fp-responsive .fp-auto-height-responsive.fp-section,
+  .fp-responsive .fp-auto-height-responsive .fp-slide,
+  .fp-responsive .fp-auto-height-responsive .fp-tableCell {
+    height: auto !important;
+  }
+</style>
+
+<style>
+  .section {
+    /* text-align: center;
+    font-size: 3em; */
+  }
+
+  .test {
+    height: 10000px;
+  }
+</style>
+
+
+<body>
+  <div id="fullpage">
+    <div class="section text-center">
+      <h1 class="text-white display-2"><em style="font-family: 'Yesteryear', cursive;">Project Breeze</em></h1>
+      <h5>Draft <em>beautifully</em> <strong>short</strong> contracts.</h5>
+    </div>
+    <div class="section text-center">
+      <div class="container text-center">
+        <h5 class="mb-5">Incorporate <strong>entire</strong> contracts in a single line.</h5>
+      </div>
+      <div class="container text-left bg-light">
+        <p class="text-center"><strong>Mutual Non-Disclosure Agreement</strong></p>
+        <p><mark>Import NDA (https://github.com/ProjectBreeze/ProjectBreeze)</mark></p>
+        <p>Signature: <span style="width:5cm;border-bottom:0.05em solid #000;display:inline-block;"></span> Date: <span
+            style="width:4cm;border-bottom:0.05em solid #000;display:inline-block;"></span></p>
+        <p>Signature: <span style="width:5cm;border-bottom:0.05em solid #000;display:inline-block;"></span> Date: <span
+            style="width:4cm;border-bottom:0.05em solid #000;display:inline-block;"></span></p>
+      </div>
+    </div>
+    <div class="section text-center">
+      <div class="container text-center">
+        <h5 class="mb-5">Or <strong>choose</strong> only what you need.</h5>
+      </div>
+      <div class="container text-left bg-light">
+        <h2 class="text-center my-3">&#183;&#183;&#183;</h2>
+        <p><strong>8. Miscellaneous</strong></p>
+        <p>8.1. <mark>Import Entire Agreement (https://github.com/ProjectBreeze/ProjectBreeze)</mark></p>
+        <p>8.2. <em>Governing Laws.</em>This Agreement shall be governed by, constituted and enforced in accordance with
+          the laws of the Province of
+          British Columbia, and shall be binding upon the parties hereto in Canada and worldwide.</p>
+        <p>8.3 <mark>Import Counterparts (https://github.com/ProjectBreeze/ProjectBreeze)</mark></p>
+        <h2 class="text-center my-3">&#183;&#183;&#183;</h2>
+      </div>
+    </div>
+    <div class="section text-center">
+      <h1 class="text-white display-2"><em style="font-family: 'Yesteryear', cursive;">Don't reinvent the wheel!</em>
+      </h1>
+      <h5>A <strong>standard</strong> for incorporating other documents.</h5>
+    </div>
+    <div class="section text-center">
+      <h1 class="text-white display-2"><em style="font-family: 'Yesteryear', cursive;">Write shorter, read once.</em>
+      </h1>
+      <h5>A <strong>centralized source</strong> for common provisions and documents.</h5>
+    </div>
+    <div class="section text-center">
+      <div class="slide" data-anchor="slide1">
+        <div class="container text-center">
+          <h1 class="text-white display-2"><em style="font-family: 'Yesteryear', cursive;">Steps</em>
+          </h1>
+          <h5 class="mt-5">1. Find generic templated language in your document.</h5>
+        </div>
+        <div class="container text-left bg-light">
+          <p><strong>Headings.</strong> The headings herein are for convenience only, do not constitute a part of this
+            Agreement and shall not be deemed to limit or affect any of the provisions hereof.</p>
+        </div>
+      </div>
+      <div class="slide" data-anchor="slide2">
+        <div class="container text-center">
+          <h1 class="text-white display-2"><em style="font-family: 'Yesteryear', cursive;">Steps</em>
+          </h1>
+          <h5 class="mt-5">2. Write an import statement.</h5>
+        </div>
+        <div class="container text-left bg-light">
+          <p><mark>Import Headings (https://github.com/ProjectBreeze/ProjectBreeze) as "Headings"</mark></p>
+        </div>
+      </div>
+      <div class="slide" data-anchor="slide3">
+        <div class="container text-center">
+          <h1 class="text-white display-2"><em style="font-family: 'Yesteryear', cursive;">Steps</em>
+          </h1>
+          <h5 class="mt-5">3. Read the text inline.</h5>
+        </div>
+        <div class="container text-left bg-light">
+          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+            anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+          <p><mark> <a class="btn btn-outline-info" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample" onclick="$(window).trigger('resize')">
+                Import NDA
+              </a></mark></p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim
+                keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+            </div>
+          </div>
+          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+            anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+        </div>
+      </div>
+      <div class="slide" data-anchor="slide4">
+        <div class="container text-center">
+          <h1 class="text-white display-2"><em style="font-family: 'Yesteryear', cursive;">Steps</em>
+          </h1>
+          <h5 class="mt-5">4. Make changes to tailor your language.</h5>
+        </div>
+        <div class="container text-left bg-light">
+          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+            anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+          <p><mark>Import NDA (https://github.com/ProjectBreeze/ProjectBreeze) as "NDA"</mark></p>
+          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+            anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+        </div>
+      </div>
+      <div class="slide" data-anchor="slide5">
+        <div class="container text-center">
+          <h1 class="text-white display-2"><em style="font-family: 'Yesteryear', cursive;">Steps</em>
+          </h1>
+          <h5 class="mt-5">5. Refer to the interpretive guidelines.</h5>
+        </div>
+        <div class="container text-left bg-light">
+          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+            anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+          <p><mark>Import NDA (https://github.com/ProjectBreeze/ProjectBreeze) as "NDA"</mark></p>
+          <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+            anim
+            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+        </div>
+      </div>
+      <div class="slide" data-anchor="slide6">
+        <h5 class="mt-5">Read the text inline.</h5>
+        <h5 class="mt-5">2. Read the text inline.</h5>
+        <h5 class="mt-5">3. Use the interpretive guidelines.</h5>
+
+
+      </div>
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"
+    integrity="sha256-SNaaqfQPa0XlEqQDrsurQ+Qq5XnhNrwHQXnZpdXlCEI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.js"
+    integrity="sha256-IdYr3RL6dbTE8np9cvTDYmoBJ7FW/OUGzznGf3+4BjA=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $('#fullpage').fullpage({
+      navigation: true,
+      slidesNavigation: true,
+      sectionsColor: ['#4BBFC3', '#7BAABE', '#ccddff', '#4BBFC3', '#7BAABE', '#ccddff', '#4BBFC3', '#7BAABE', '#ccddff'],
+      scrollOverflow: true,
+      verticalCentered: true,
+    });
+  </script>
+
+</body>
+
+</html>
