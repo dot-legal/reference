@@ -1,1 +1,1 @@
-The headings herein are for convenience only, do not constitute a part of this Agreement and shall not be deemed to limit or affect any of the provisions hereof.
+The headings in this document are for convenience only and do not constitute a part of this document.  The headings will not be deemed to limit or affect any of the provisions contained in this document.
