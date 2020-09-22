@@ -50,7 +50,10 @@
       <!-- REFERENCE RULES TO REFER TO DEFINING PACKAGE -->
    6. Metadata, Instructions, Comments and Formatting
       1. The metadata, instructions, comments and formatting contained in each Package are for reference purposes only and will not affect in any way the meaning or interpretation of the Package or any document it is made part of.
-5. Syntax
+5. Versioning/GitHub
+   <!-- Need significant discussion on Github changes versus actual releases -->
+   <!-- Allow suggesting changes, can we do this anonymously or through a web service? -->
+6. Syntax
    1. Intention
       1. The intention of Project Breeze is to standardize drafting language to reduce ambiguity where it is not intended.  Many of the syntactic and structural choices made by Project Breeze deliberately mirror basic computer engineering concepts and such concepts may be used to further clarify areas where these Interpretive Guidelines alone are insufficient.
    2. Keywords
@@ -63,7 +66,7 @@
    3. Drafting standards
       1. Document
       2. Party
-6. Best Practices
+7. Best Practices
    <!-- Entirely missing -->
    1. Git
    2. Backups
