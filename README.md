@@ -1,21 +1,28 @@
 # Project Breeze
 
+A framework for drafting shorter legal documents.
+
 ## Introduction
 
-Project Breeze is a legal drafting framework to read and write shorter documents that are just as robust and strong as the traditional pen and paper approach.
+Project Breeze hides templated language away so you can focus on what really matters.  With a short tag in your document, you can reference our standard templates and dramatically reduce the size of your documents.
 
-The key concept is to rid uncontested template provisions in a legal document and to focus on what really matters.  Lawyers include those same provisions (such as "Interpretation", "Force Majeure", "Counterparts", etc) repeatedly with meaningless variations.  They are never in dispute and only serve to lengthen and complicate legal documents.
+### 1. Reference templated text and remove it from your documents
 
-Project Breeze allows you to reference a standard set of templated language held by a neutral third party to your document.  Mirroring established programming frameworks, the process is to "import" a "package".  A single line (a package) may cut dozens of pages of excess text, but remain available should a legal issue arise.
+![Reference text with an import statement](https://github.com/ProjectBreeze/ProjectBreeze/raw/master/docs/resources/images/animated/example-import.gif)
 
-### Key Features
+### 2. Highlight the differences and customize to your needs
 
-* Cut out templated text
-* Templated text stored by a neutral third party
-* Use as much or as little as you want
-* Customize to fit your needs
+![Customize an import statement](https://github.com/ProjectBreeze/ProjectBreeze/raw/master/docs/resources/images/animated/example-customization.gif)
 
-## Getting Started
+### 3. Use as much or as little of the framework as you want
+
+![Choose to use as much or as little as you want](https://github.com/ProjectBreeze/ProjectBreeze/raw/master/docs/resources/images/animated/example-minimal-use.gif)
+
+### 4. Read our templates once and use it for everything
+
+![Read once and never again](https://github.com/ProjectBreeze/ProjectBreeze/raw/master/docs/resources/images/animated/example-read-once.gif)
+
+## Quick Start
 
 ### Reading a Document
 
@@ -39,24 +46,22 @@ Project Breeze allows you to reference a standard set of templated language held
 6. Examples:
    <!-- Examples are missing -->
 
-## Next Steps
+## Documentation
 
 These instructions only scratch the surface of Project Breeze.  If you are interested in the documentation, head over to the Project Breeze Documentation which will describe in detail the specifications of the Project Breeze Framework.
 
 ## Frequently Asked Questions
 
 1. Are Project Breeze documents legally enforceable?
-
-Yes.  Legal documents, though usually in writing, are just as enforceable in any form of media so long as both parties understand the content.  Today, legal documents already make heavy use to links to corporate websites, external privacy policies, etc.  Project Breeze is no different, it merely adds structure to the process.
-
+   * Yes.  Legal documents are just as enforceable in any form of media so long as both parties understand and agree.  Today, legal documents already make heavy use of links to corporate websites, external policies, etc.  Project Breeze is no different.
 2. How does this differ from a clause library?
 3. How can I learn?
 4. How can I contribute?
 
-## Copyright and License Information
+## Copyright and License
 
-No commercial use of this repository.  Improvements and modificiations must be open sourced.
+Code, text and documentation Copyright 2020 Project Breeze.  No commercial use is currently granted for the contents of this repository.
 
 ## Disclaimer
 
-Project Breeze does not offer legal advice.  The use of Project Breeze creates no relationship with Project Breeze in any way.  Project Breeze and contributors to Project Breeze offer no warranty of any kind and disclaim all forms of liability.  Please seek independent legal advice before using Project Breeze.
+Project Breeze does not offer legal advice.  The use of Project Breeze does not create a relationship with Project Breeze in any way.  Project Breeze and contributors to Project Breeze offer no warranty of any kind and disclaim all forms of liability.  Please seek independent legal advice before using Project Breeze.
