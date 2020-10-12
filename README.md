@@ -6,19 +6,21 @@ A framework for drafting shorter legal documents.
 
 Project Breeze hides templated language away so you can focus on what really matters.  With a short tag in your document, you can reference our standard templates and dramatically reduce the size of your documents.
 
-### 1. Reference templated text and remove it from your documents
+### Key Benefits
+
+#### 1. Reference templated text and shorten your documents
 
 ![Reference text with an import statement](https://github.com/ProjectBreeze/ProjectBreeze/raw/master/docs/resources/images/animated/example-import.gif)
 
-### 2. Highlight the differences and customize to your needs
+#### 2. Tailor to your needs and call out the changes
 
 ![Customize an import statement](https://github.com/ProjectBreeze/ProjectBreeze/raw/master/docs/resources/images/animated/example-customization.gif)
 
-### 3. Use as much or as little of the framework as you want
+#### 3. Use as much or as little as you want
 
 ![Choose to use as much or as little as you want](https://github.com/ProjectBreeze/ProjectBreeze/raw/master/docs/resources/images/animated/example-minimal-use.gif)
 
-### 4. Read our templates once and use it for everything
+#### 4. Read our templates once and use it anywhere
 
 ![Read once and never again](https://github.com/ProjectBreeze/ProjectBreeze/raw/master/docs/resources/images/animated/example-read-once.gif)
 
@@ -46,21 +48,23 @@ Project Breeze hides templated language away so you can focus on what really mat
 6. Examples:
    <!-- Examples are missing -->
 
+### Frequently Asked Questions
+
+#### 1. Are Project Breeze documents legally enforceable?
+
+Yes.  Legal documents are just as enforceable in any form of media so long as both parties understand and agree.  Today, legal documents already make heavy use of links to corporate websites, external policies, etc.  Project Breeze is no different.
+
+#### 2. How does this differ from a clause library?
+#### 3. How can I learn?
+#### 4. How can I contribute?
+
 ## Documentation
 
 These instructions only scratch the surface of Project Breeze.  If you are interested in the documentation, head over to the Project Breeze Documentation which will describe in detail the specifications of the Project Breeze Framework.
 
-## Frequently Asked Questions
-
-1. Are Project Breeze documents legally enforceable?
-   * Yes.  Legal documents are just as enforceable in any form of media so long as both parties understand and agree.  Today, legal documents already make heavy use of links to corporate websites, external policies, etc.  Project Breeze is no different.
-2. How does this differ from a clause library?
-3. How can I learn?
-4. How can I contribute?
-
 ## Copyright and License
 
-Code, text and documentation Copyright 2020 Project Breeze.  No commercial use is currently granted for the contents of this repository.
+Code, text and documentation Copyright ©2020 Project Breeze.  No commercial use is currently granted for the contents of this repository.
 
 ## Disclaimer
 
