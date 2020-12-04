@@ -1,14 +1,14 @@
-# Project Breeze Documentation
+# Project Breeze Documentation ("Interpretation Reference")
 
 1. Introduction
-   1. The purpose of Project Breeze is to simplify legal documents by hosting reusable pieces of legal text (each called a "Package").  Users of Project Breeze may reference the standardized Packages available on the Project Breeze platform to be included right in their own documents.
-   2. The key concept of Project Breeze is to allow the "Import" of Packages.  Though the act of Importing a Package is similar to referencing attached appendices with several key differences that are outlined in these Interpretive Guidelines.
-   3. These Interpretive Guidelines will set out the rules for understanding and using Project Breeze.
+   1. The purpose of Project Breeze is to simplify legal documents by hosting reusable pieces of legal text (each called a "Package").  Users of Project Breeze may reference the standardized Packages available on the Project Breeze platform and include them right in their own documents.
+   2. The core of Project Breeze is to allow the "Import" of Packages.  The act of Importing a Package is similar to referencing attached appendices with several key differences that are outlined in this Interpretation Reference.
+   3. This Interpretation Reference will set out the rules for understanding and using Project Breeze.
 2. Disclaimer
    1. Project Breeze is not a law firm and does not offer legal advice.  The use of Project Breeze creates no relationship with Project Breeze in any way.  Project Breeze and contributors to Project Breeze offer no warranty of any kind and disclaim all forms of liability.  Please seek independent legal advice before using Project Breeze.
-3. Get Started
+3. Getting Started
    1. Writing a Document
-      1. Include a clause to introduce the Project Breeze Interpretive Guidelines.
+      1. Include a clause to introduce the Project Breeze Interpretation Reference.
       2. To Import a Project Breeze Package, a statement (called an "Import Statement") must be made beginning with the keyword Import and the statement must include at minimum:
          1. its own section/clause/chapter/article number; and
          2. a valid URL to a Project Breeze Package.
@@ -28,8 +28,8 @@
    2. Reading a Document
 4. Interpretation
    1. Clause Enumeration
-      1. All subdivided text in a Package, be they sections, subsections or any other form of subdivided text will be enumerated with cardinal numbers.  For example, there may be sections and several levels of subsections.  The reference to a sub-subsection would read as Section 1(2)(3).
-      2. To preserve numbering between Package versions, inserted sections between two cardinal numbers may be given decimal enumerators, but will be functionally the same.
+      1. All subdivided text in a Package, be they sections, subsections or any other form of subdivided text will be enumerated with numbers.  For example, there may be sections and several levels of subsections.  The reference to a sub-subsection would read as Section 1(2)(3).
+      2. To preserve numbering between Package versions, inserted sections between two cardinal numbers may be given decimal enumerators.
    2. Versioning and Amendments
       1. If the Import of a Project Breeze Package specifies a corresponding version number, the parties will restrict and prohibit the use of preceding or subsequent versions of the Package in the reading or interpretation of the Package.  The Import will reference only the exact language used in the specific version referenced.
       2. Where the Import of a Project Breeze Package does not specify a version number, the intention is to refer to the Package on the Project Breeze platform including all changes in both language and intent made from time to time.
@@ -55,7 +55,7 @@
    <!-- Allow suggesting changes, can we do this anonymously or through a web service? -->
 6. Syntax
    1. Intention
-      1. The intention of Project Breeze is to standardize drafting language to reduce ambiguity where it is not intended.  Many of the syntactic and structural choices made by Project Breeze deliberately mirror basic computer engineering concepts and such concepts may be used to further clarify areas where these Interpretive Guidelines alone are insufficient.
+      1. The intention of Project Breeze is to standardize drafting language to reduce ambiguity where it is not intended.  Many of the syntactic and structural choices made by Project Breeze deliberately mirror basic computer engineering concepts and such concepts may be used to further clarify areas where this Interpretation Reference alone are insufficient.
    2. Keywords
       1. Whether capitalized or not, except as otherwise expressly provided or unless the context otherwise requires, the following keywords will have the following meanings:
          <!-- Definitions should be made to the keywords -->
