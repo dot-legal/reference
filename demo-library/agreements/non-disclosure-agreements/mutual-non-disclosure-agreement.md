@@ -17,4 +17,4 @@
 	10. The Parties acknowledge that the disclosure of a Disclosing Party's Confidential Information in violation of this Agreement may cause the Disclosing Party irreparable harm and that any breach or threatened breach of this Agreement by the Recipient entitles the Disclosing Party to seek injunctive relief, in addition to any other legal or equitable remedies available to it, in any court of competent jurisdiction.
 	11. Import entire-agreement (https://github.com/ProjectBreeze/ProjectBreeze)
 	12. Import no-joint-venture (https://github.com/ProjectBreeze/ProjectBreeze)
-  13.  Import counterparts (https://github.com/ProjectBreeze/ProjectBreeze)
+	13. Import counterparts (https://github.com/ProjectBreeze/ProjectBreeze)
