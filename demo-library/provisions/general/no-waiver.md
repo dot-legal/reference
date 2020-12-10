@@ -1,0 +1,1 @@
+The failure of a party to exercise any right, power or remedy provided under this document or is otherwise available at law or in equity on any occasion will not be considered a waiver of such party’s rights, powers or remedies, or deprive such party of the right to later demand adherence to the terms of this document.
