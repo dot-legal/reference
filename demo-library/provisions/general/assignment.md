@@ -1,1 +1,1 @@
-This document may not be assigned by any party without prior written consent of the other parties, where such consent may not be unreasonably withheld.
+This document may not be assigned by any party without prior written consent of the other parties, where such consent may not be unreasonably withheld or delayed.
