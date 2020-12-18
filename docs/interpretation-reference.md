@@ -39,7 +39,7 @@
       <!-- Minor versions for grammar, moderate for rephrasing but same intention, major for significant changes -->
       <!-- Need rules on succession and branching (will link to new package which will automatically be a major revision) -->
    3. Document Continuity
-      1. In the event that the Project Breeze platform is unavailable for any reason, the GitHub repository at [https://github.com/ProjectBreeze/ProjectBreeze](https://github.com/ProjectBreeze/ProjectBreeze) is an accurate and exact duplicate of the content on the Project Breeze platform.  The corresponding Package on GitHub will have the same force as the Package on the Project Breeze platform.
+      1. In the event that the Project Breeze platform is unavailable for any reason, the GitHub repository at [https://github.com/ProjectBreeze/ProjectBreeze](https://github.com/ProjectBreeze/ProjectBreeze) is an accurate duplicate of the content on the Project Breeze platform.  The corresponding Package on GitHub will have the same force as the Package on the Project Breeze platform.
    4. Hierarchy
       1. By the very nature of incorporating and amending referenced Packages, provisions may overlap and contradict each other.  To determine which provision will govern and control, Project Breeze strictly adheres to a hierarchy of levels in which overlapping or contradictory provisions in a higher level of the hierarchy will override those in a lower level.  For clarity, the governing and controlling provision will be the provision found in the higher level Package.
       2. In the event where the hierarchy does not establish an unambiguous overriding provision, the provision that appears earlier in the document will govern and control.  For the purposes of determining an overriding provision, the Import of a Package will occur inline, meaning that its placement in the document lies where the reference is made and not at the end of the document like traditional appendices and schedules.
@@ -52,6 +52,7 @@
       1. The metadata, instructions, comments and formatting contained in each Package are for reference purposes only and will not affect in any way the meaning or interpretation of the Package or any document it is made part of.
 5. Versioning/GitHub
    <!-- Need significant discussion on Github changes versus actual releases -->
+   <!-- Version should be denoted as a field -->
    <!-- Allow suggesting changes, can we do this anonymously or through a web service? -->
 6. Syntax
    1. Intention
@@ -66,10 +67,12 @@
    3. Drafting standards
       1. Document
       2. Party
+         1. Always assume more than 2 parties, addressed as all parties
 7. Best Practices
    <!-- Entirely missing -->
    1. Git
+      1. Each clause/provision should, as much as possible, be committed individually for detailed descriptions.  Longer notes should be placed and deleted in the docs section.
    2. Backups
       1. Though GitHub is a reliable secondary store of Project Breeze materials, users with important legal documents should take advantage of the many tools available on GitHub to backup Packages from time to time (including downloading, cloning and forking).
    3. General formatting
-      1. Underlining is the preferred styling to make text conspicuous when required.
+      1. Underlining is the preferred styling to make text conspicuous when required.  Use of all capitalized text is highly discouraged.
