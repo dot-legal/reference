@@ -1,0 +1,4 @@
+All notices and other communications required or permitted under this document will be sent by email to the following email addresses: `email_addresses`.  The email will be deemed to have been received when its receipt is acknowledged.  If receipt is not acknowledged and there is no refusal, a second email may be sent 5 calendar days after the initial email which will be deemed to be received when the second email is sent.
+
+[Explanation]: # (This clause describes how the parties officially communicate between each other, particularly when they need to give notice of some event with strict timing requirements.)
+[Simplified]: # (Any notices or communications between the parties may be done via email.  Emails are received when someone acknowledges its receipt, or when a second email is sent 5 days after the initial email.)
