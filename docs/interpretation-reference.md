@@ -8,7 +8,7 @@ Last Updated:
       ```
       Import demo-library/provisions/general/amendment.md {"version": "0.0.0.2-alpha"}
       ```
-   3. This Interpretation Reference will set out the rules for using and understanding Project Breeze.  Any party to a document governed by this Interpretation Reference represents that they have read and understood this Interpretation Reference.
+   3. This Interpretation Reference will set out the rules for using and understanding Project Breeze.  **Any party to a document governed by this Interpretation Reference represents that they have read and understood this Interpretation Reference.**
    4. This Interpretation Reference may be updated from time to time.  For rules regarding which version applies, please see the "Versioning and Amendments" section below.
 2. Getting Started
    1. Writing a Document
@@ -44,35 +44,52 @@ Last Updated:
    1. Import Statement
       1. The Import Statement **must** start with the word "Import" followed by a valid Path to a Package.
       2. The Import Statement may also include:
-         1. its own section/clause/chapter/article number; and
-         2. A version number, which must also be accompanied by a version number in the URL
-         3. A definition (Import ... as "NDA")
-         4. References to or exclusions of specific enumerated clauses
-            1. If the Import Statement includes or excludes specific references, only the selected clauses are Imported into the document and the rest of the Package is ignored and do not form part of the document.
-         5. Field inputs
-            1. Certain packages may include fillable fields with identifiers.  You should include inputs for each field.
+         1. Its own clause/section/article number
+            1. Primarily for ease of reference
+            2. See the Syntax section for more information on Numbering and References
+         2. Changes
+            1. Where you want to change the Package slightly, you may state those changes immediately following the Import statement in plain language.
+         3. Field inputs in curly braces
+            1. Allows for some inputs into template language (for example, the notices clause may include a field for an email address)
+            2. See the Fields section for more information
+         4. A specific version in the Field inputs
+            1. If you want to ensure the Package language stays the same and will not be updated, you can state the specific version in the Field inputs.
+            2. See the Versioning and Amendments section for more information
+      3. An example of a longer Import Statement is:
+         ```
+         1. Import demo-library/provisions/general/notices.md {"version": "0.0.0.2-alpha", "email_addresses": "admin@projectbreeze.com and support@projectbreeze.com"} however, a second email may only be sent 10 calendar days after the initial email.
+         ```         
    2. Fields
+      1. Certain Packages may include empty Fields as denoted by an inline code block (surrounded by the backtick or ` character) and a field name.  An example is the notices clause which reads:
+         ```
+         All notices and other communications required or permitted under this document will be sent by email to the following email addresses: `email_addresses`.
+         ```
+      2. The Import Statement should include Field inputs within curly braces, and both the label and input should be surrounded by double brackets.  For example:
+         ```
+         Import demo-library/provisions/general/notices.md {"version": "0.0.0.2-alpha", "email_addresses": "admin@projectbreeze.com and support@projectbreeze.com"}
+         ```
+         which will produce this result:
+         ```
+         All notices and other communications required or permitted under this document will be sent by email to the following email addresses: admin@projectbreeze.com and support@projectbreeze.com.
+         ```
    3. Versioning and Amendments
-   <!-- Need significant discussion on Github changes versus actual releases -->
-   <!-- Version should be denoted as a field -->
-      1. If the Import of a Project Breeze Package specifies a corresponding version in the Fields, the Import will reference only the language used in the specific version referenced.
-      2. Where the Import of a Project Breeze Package does not specify a version number, the intention will be to refer to the latest version of the Package including all changes in both language and intent made from time to time.
-         1. Any time a new version of the Package is published on the Project Breeze platform, such version will undergo an "Acceptance Period" of thirty (30) calendar days beginning from the date it is published.  The Import of a Project Breeze Package without a version number will refer to the latest version of such Package which is not undergoing an Acceptance Period.  During any Acceptance Period, any party may unilaterally object to the changes made by giving clear written notice to all other parties.  Such written notice will lock the Imported Package and it will refer to the latest version of the Package not undergoing an Acceptance Period from the date the written notice was given.
-         2. At the end of the Acceptance Period, the new version will replace the existing version with an effective date of the end of the Acceptance Period.
-      3. Where a section reference in the Import Statement is no longer accurate to a new version, the section reference will refer, to the greatest extent possible and in good faith, the natural successor based on the history of changes available.  Where such context remains ambiguous, the section reference will refer to the latest version in which a natural successor can be determined.
-      <!-- Minor versions for grammar, moderate for rephrasing but same intention, major for significant changes -->
-      <!-- Need rules on succession and branching (will link to new package which will automatically be a major revision) -->
-   1. Orders of Precedence
-      1. By the very nature of incorporating and amending referenced Packages, provisions may overlap and contradict each other.  To determine which provision will govern and control, Project Breeze strictly adheres to a hierarchy of levels in which overlapping or contradictory provisions in a higher level of the hierarchy will override those in a lower level.  For clarity, the governing and controlling provision will be the provision found in the higher level Package.
-      2. In the event where the hierarchy does not establish an unambiguous overriding provision, the provision that appears earlier in the document will govern and control.  For the purposes of determining an overriding provision, the Import of a Package will occur inline, meaning that its placement in the document lies where the reference is made and not at the end of the document like traditional appendices and schedules.
-      3. To determine establish the hierarchy, the lowest level comprises of Packages which do not contain references to any other Package.  Packages which reference the lowest level are next in the hierarchy and the level will continue to raise with each subsequent reference.  The final document drafted by the end-user is on the highest level of the hierarchy, and will govern and control over any Package.
-   2. Definitions
-      <!-- Include clarification on: -->
-      <!-- SCOPING DEFINITIONS WITHIN THE PACKAGE IF CONFLICTING -->
-      <!-- REFERENCE RULES TO REFER TO DEFINING PACKAGE -->
-   3. Metadata, Instructions, Comments and Formatting
+      1. If the Import Statement includes a specific version in its Fields, the Import will reference only the language used in that particular version.
+      2. Where the Import Statement does not specify a version, the intention will be to refer to the latest version of the Package and to benefit from all updates to language and intent made from time to time.
+         1. Major Changes
+            1. Major Changes to a Package will be separated into a new Package and will have no effect on the existing Package.  Major Changes are for significant changes in the intention, or where there will be real and practical effects.
+            2. However, Minor Changes to a Package are updates that will become the latest version of the Package.  Minor Changes are generally limited to clarification and rephrasing.  For certain Packages, the intent may change to reflect best practices or a new legal requirement.
+            3. The distinction between Major and Minor Change will be determined by Project Breeze in its sole discretion.
+         2. Acceptance Period
+            1. Any time a new version of Project Breeze is published, such version will undergo an "Acceptance Period" of thirty (30) calendar days beginning from the date it is published.  The Import of a Project Breeze Package without a version will refer to the latest version of such Package which is not undergoing an Acceptance Period.  During any Acceptance Period, any party may unilaterally object to the changes made by giving clear written notice to all other parties.  Such written notice will lock the Imported Package and it will refer to the latest version of the Package not undergoing an Acceptance Period from the date the written notice was given.
+            2. At the end of the Acceptance Period, the new version will replace the existing version with an effective date of the end of the Acceptance Period.
+      3. Where a reference number in the Import Statement is no longer accurate to a new version, the reference number will refer, to the greatest extent possible and in good faith, the logical successor based on the history of changes available.  Where such context remains ambiguous, the reference number will refer to the latest version in which a logical successor can be determined.
+      4. Note that versions will refer to "Releases" per GitHub terminology.  In other words, there may be intermediary, non-final changes which do not count as versions.
+   4. Orders of Precedence
+      1. Clauses in different Packages may overlap and contradict each other.  Subject to any explicit language otherwise, to determine which clause will govern and control (to "Override"), Packages are placed in a hierarchy.  The document is on the highest level, its direct Imports are on the next level, and Imports within those Packages are on a lower level, and so on.  Clauses in a higher level will Override over those in a lower level.  For clarity, the document will always Override over any Package unless explicitly stated otherwise.
+      2. Where the hierarchy does not establish an unambiguous overriding clause (for example, where the clauses are placed on the same level), the clause that appears earlier in the document will Override later clauses.  Note that the Import of a Package occurs inline, meaning that its placement in the document lies where the reference is made and not at the end of the document or elsewhere.
+   5. Metadata, Instructions, Comments and Formatting
       1. The metadata, instructions, comments and format contained in each Package are for reference purposes only and will not affect in any way the meaning or interpretation of the Package or any document it is made part of.
-   4. Continuity and Backups
+   6. Continuity and Backups
       1. In the event that the Project Breeze platform is unavailable for any reason, the GitHub repository at [https://github.com/ProjectBreeze/ProjectBreeze](https://github.com/ProjectBreeze/ProjectBreeze) is an accurate duplicate of the content on the Project Breeze platform.  The corresponding Package on GitHub will have the same force as the Package on the Project Breeze platform.
 4. Syntax
    1. Intention
@@ -94,8 +111,10 @@ Last Updated:
       3. Numbering and References
          1. All subdivided text in a Package, whether sections, subsections or any other form of subdivided text will be numerated with cardinal numbers.  For example, there may be sections and several levels of subsections.  The reference to a sub-subsection would read as Section 1(2)(3).
          2. To preserve numbering between Package versions, inserted sections between two cardinal numbers may be given decimal numbers such as 1.1 or 2.1.
+      4. Emphasis
+         1. Emphasis will be bolded or italicized.  All caps should never be used.
 5. Contributing
-<!-- Allow suggesting changes, can we do this anonymously or through a web service? -->
+   1. Contributions, including suggestions, may be made via the GitHub repository as Issues, suggested Changes or Pull Requests.
 6. Best Practices
    1. Git
       1. Each clause should, as much as possible, be committed via Git individually for detailed descriptions.  Longer notes may be referenced in the Git description, then placed into the docs folder.
@@ -104,5 +123,5 @@ Last Updated:
    3. General formatting
       1. Underlining is the preferred styling to make text conspicuous when required.  Use of all capitalized text is highly discouraged.
 7. Disclaimer
-   1. Project Breeze is not a law firm and does not offer legal advice.  The use of Project Breeze creates no relationship with Project Breeze in any way.  Project Breeze and contributors to Project Breeze offer no warranty of any kind and disclaim all forms of liability.  Please seek independent legal advice before using Project Breeze.
-   2. Project Breeze is currently in ALPHA phase, which means that virtually all parts of Project Breeze, including this Interpretation Reference and the Package may change drastically.  Please do not use Project Breeze in any serious or binding legal documents.
+   1. **Project Breeze is not a law firm and does not offer legal advice.  The use of Project Breeze creates no relationship with Project Breeze in any way.  Project Breeze and contributors to Project Breeze offer no warranty of any kind and disclaim all forms of liability.  Please seek independent legal advice before using Project Breeze.**
+   2. **Project Breeze is currently in ALPHA phase, which means that virtually all parts of Project Breeze, including this Interpretation Reference and the Package may change drastically.  Please do not use Project Breeze in any serious or binding legal documents.**
