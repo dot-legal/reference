@@ -2,3 +2,4 @@ All notices and other communications required or permitted under this document w
 
 [Explanation]: # (This clause describes how the parties officially communicate between each other, particularly when they need to give notice of some event with strict timing requirements.)
 [Simplified]: # (Any notices or communications between the parties may be done via email.  Emails are received when someone acknowledges its receipt, or when a second email is sent 5 days after the initial email.)
+[Field: `email_addresses`]: # (A list of email addresses from all parties who should be contacted if notice is required.)
