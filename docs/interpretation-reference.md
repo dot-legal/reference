@@ -1,6 +1,6 @@
 # Project Breeze Documentation ("Interpretation Reference")
 
-Last Updated: 
+Last Updated: January 1, 2021
 
 1. Introduction
    1. The purpose of Project Breeze is to simplify and modularize legal documents through reusable pieces of legal text (each called a "Package").  Users of Project Breeze may reference the standard Packages available on the platform and include them in their own documents.
