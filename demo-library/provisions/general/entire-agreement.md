@@ -1,1 +1,1 @@
-This document contains the sole and entire agreement between all parties.  This document may only be modified in writing executed by all parties.  Should any provision of this document be deemed illegal or otherwise unenforceable, that provision shall be severed and the remainder of this document shall remain in full force and effect.
+This document contains the entire agreement between all parties.  This document supersedes all other prior agreements and understandings, oral, written or otherwise with respsect to the subject matter of the document.
