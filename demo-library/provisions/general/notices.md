@@ -1,5 +1,7 @@
 All notices and other communications required or permitted under this document will be sent by email to the following email addresses: `email_addresses`.  The email will be deemed to have been received when its receipt is acknowledged.  If receipt is not acknowledged and there is no refusal, a second email may be sent 5 calendar days after the initial email which will be deemed to be received when the second email is sent.
 
+All notices between the parties will be in writing and will be deemed to have been given if personally delivered or sent by certified mail (return receipt requested), electronic mail or facsimile, to the other party's current or last known address.  Notices will be deemed effective upon receipt if personally delivered, three (3) business days after it was sent if by certified mail, or one (1) business day after it was sent if by electronic mail or facsimile.
+
 [Explanation]: # (This clause describes how the parties officially communicate between each other, particularly when they need to give notice of some event with strict timing requirements.)
 [Simplified]: # (Any notices or communications between the parties may be done via email.  Emails are received when someone acknowledges its receipt, or when a second email is sent 5 days after the initial email.)
-[Field: `email_addresses`]: # (A list of email addresses from all parties who should be contacted if notice is required.)
+[Field: `email_addresses`]: # (A list of email addresses from all parties who should be contacted if notice is required.  Example: legal@projectbreeze.com)

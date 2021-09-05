@@ -1,1 +1,1 @@
-Nothing contained in this document, nor the acts of any party, shall create, or be construed to create, a partnership or joint venture relationship between any of the parties.
+Nothing contained in this document, nor the acts of any party, will create, or be construed to create, a partnership or joint venture relationship between any of the parties.

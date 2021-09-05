@@ -1,1 +1,1 @@
-This document may be executed in any number of counterparts and by the different signatories on separate counterparts, each of which, when so executed, will be deemed an original.  All such counterparts will constitute one and the same document.
+This document may be signed in counterparts, each of which will be deemed an original, but all of which, taken together, constitute one and the same document.
