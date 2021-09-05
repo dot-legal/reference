@@ -1,10 +1,10 @@
 # Project Breeze Documentation ("Interpretation Reference")
 
-Last Updated: January 1, 2021
+Last Updated: March 7, 2021
 
 1. Introduction
-    1. The purpose of Project Breeze is to simplify and modularize legal documents through reusable pieces of legal text (each called a "Package").  Users of Project Breeze may reference the standard Packages available on the platform and include them in their own documents.
-    2. You can reference one or more Packages with a single line and drastically shorten and simplify your document (the process is called an "Import").  These lines are like hyperlinks to a set of general terms or a reference to a schedule or exhibit.  The structure for this reference is outlined in this Interpretation Reference, but the following is a simple example:
+    1. The purpose of Project Breeze is to modularize legal documents through reusable pieces of legal text, each called a "Package".  Project Breeze users may link or reference the standard Packages available on the platform and include them in their own documents.
+    2. You can reference one or more Packages to shorten and simplify your document.  This process is called an "Import").  These lines are like hyperlinks to a set of general terms or a reference to a schedule or exhibit.  The structure for this reference is outlined in this Interpretation Reference, but the following is a simple example:
         ```
         Import demo-library/provisions/general/amendment.md {"version": "0.0.0.2-alpha"}
         ```
@@ -12,7 +12,7 @@ Last Updated: January 1, 2021
     4. This Interpretation Reference may be updated from time to time.  For rules regarding which version applies, please see the "Versioning and Amendments" section below.
 2. Getting Started
     1. Writing a Document
-        1. Start by introducing this Interpretation Reference:
+        1. Introduce this Interpretation Reference:
             ```
             This document is governed by the Project Breeze Interpretation Reference located at https://github.com/ProjectBreeze/ProjectBreeze/blob/master/docs/interpretation-reference.md.
             ```
@@ -93,8 +93,7 @@ Last Updated: January 1, 2021
         1. In the event that the Project Breeze platform is unavailable for any reason, the GitHub repository at [https://github.com/ProjectBreeze/ProjectBreeze](https://github.com/ProjectBreeze/ProjectBreeze) is an accurate duplicate of the content on the Project Breeze platform.  The corresponding Package on GitHub will have the same force as the Package on the Project Breeze platform.
 4. Syntax
     1. Intention
-        1. The intention of Project Breeze is to standardize legal language to reduce ambiguity where it is not intended.  Many of the choices deliberately mirror basic computer engineering concepts and such concepts may be used to further clarify areas where this Interpretation Reference alone is insufficient.
-        2. Enforcing strict requirements, particularly with syntax, will eventually result in some mistake.  All parties to a document governed by this Interpretation Reference will read and interpret such documents in good faith through the eyes of a reasonable third party.  Where syntax is indecipherable by Project Breeze's official tools and the intention is plainly discernible, the error should be ignored and the syntax corrected.
+        1. The intention of Project Breeze is to standardize legal language to reduce ambiguity where it is not intended.  All parties to a document governed by this Interpretation Reference will read and interpret such documents in good faith through the eyes of a reasonable third party.  Where syntax is indecipherable by Project Breeze's official tools and the intention is plainly discernible, the error should be ignored in favor of the clear intention of the user.
     2. Format
         1. Packages are written in the Markdown format (see the Commonmark spec at: https://commonmark.org/).
         2. Inline code blocks (according to the Commonmark spec) are used to denote Fields that are replaced by values provided in the Import Statement.
@@ -113,15 +112,16 @@ Last Updated: January 1, 2021
             2. To preserve numbering between Package versions, inserted sections between two cardinal numbers may be given decimal numbers such as 1.1 or 2.1.
         4. Emphasis
             1. Emphasis will be bolded or italicized.  All caps should never be used.
-5. Contributing
-    1. Contributions, including suggestions, may be made via the GitHub repository as Issues, suggested Changes or Pull Requests.
+        5. Grammar
+            1. Use of Oxford commas is preferred.
+            2. Numbering should break down into ordered lists whenever possible.
+5. Contributions
+    1. Contributions, including suggestions and feedback, may be made via the GitHub repository as Issues, Suggested Changes or Pull Requests.
 6. Best Practices
     1. Git
-        1. Each clause should, as much as possible, be committed via Git individually for detailed descriptions.  Longer notes may be referenced in the Git description, then placed into the docs folder.
+        1. Each Package should, where possible, be committed via Git individually for detailed descriptions.  Longer notes may be referenced in the Git description, then placed into the docs folder.
     2. Backups
         1. Though GitHub is a reliable secondary store of Project Breeze materials, users with important legal documents should take advantage of the many tools available on GitHub to backup Packages from time to time (including downloading, cloning and forking).
-    3. General formatting
-        1. Underlining is the preferred styling to make text conspicuous when required.  Use of all capitalized text is highly discouraged.
 7. Disclaimer
-    1. **Project Breeze is not a law firm and does not offer legal advice.  The use of Project Breeze creates no relationship with Project Breeze in any way.  Project Breeze and contributors to Project Breeze offer no warranty of any kind and disclaim all forms of liability.  Please seek independent legal advice before using Project Breeze.**
-    2. **Project Breeze is currently in ALPHA phase, which means that virtually all parts of Project Breeze, including this Interpretation Reference and the Package may change drastically.  Please do not use Project Breeze in any serious or binding legal documents.**
+    1. **Project Breeze is not a law firm and does not offer legal advice.  The use of Project Breeze creates no relationship with Project Breeze in any way.  Project Breeze and contributors to Project Breeze offer no warranty of any kind and disclaim all forms of liability.  Project Breeze is provided "as is".  Please seek independent legal advice before using Project Breeze.**
+    2. **Project Breeze is currently in ALPHA phase, which means that virtually all parts of Project Breeze, including this Interpretation Reference and the Packages may change drastically.  Please do not use Project Breeze in any binding legal document.**
