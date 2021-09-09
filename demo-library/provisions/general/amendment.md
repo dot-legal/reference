@@ -1,1 +1,1 @@
-This document may be amended or modified from time to time only by the written consent of all parties.
+Any amendment to this document must be made with the written consent of all parties.
