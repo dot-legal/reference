@@ -1,0 +1,1 @@
+Each party will do and perform, or cause to be done and performed, all such further acts and things, and will execute and deliver all such other agreements, certificates, instruments and documents, as the other party may reasonably request in order to carry out the intent and accomplish the purposes of this document.

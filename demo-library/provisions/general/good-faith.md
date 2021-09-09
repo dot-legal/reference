@@ -1,0 +1,1 @@
+Each party agrees that its performance of all obligations and exercise of all rights under this document will be undertaken in good faith, and with all parties dealing fairly with each other.
