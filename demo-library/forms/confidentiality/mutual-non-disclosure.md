@@ -6,7 +6,7 @@ The parties, intending to be legally bound in consideration of the mutual covena
 
 ## Template Terms
 
-Incorporate <https://reference.legal/demo-library/templates/confidentiality/mutual-non-disclosure>.  `However, only information marked or clearly communicated as confidential by Disclosing Party will be considered Confidential Information.  If Disclosing Party discloses information without making clear its intention to keep such information confidential, Disclosing Party may do so retroactively.`
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/templates/confidentiality/mutual-non-disclosure>.  `However, only information marked or clearly communicated as confidential by Disclosing Party will be considered Confidential Information.  If Disclosing Party discloses information without making clear its intention to keep such information confidential, Disclosing Party may do so retroactively.`
 
 ## Term
 
@@ -24,11 +24,11 @@ Any party may terminate this document by providing written notice to the other p
 
 ## General
 
-Incorporate <https://reference.legal/demo-library/sections/general/general-expanded>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/sections/general/general-expanded>.
 
-Incorporate <https://reference.legal/demo-library/provisions/general/no-joint-venture>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/no-joint-venture>.
 
-Incorporate <https://reference.legal/demo-library/provisions/general/assignment>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/assignment>.
 
 This Agreement will be governed by and interpreted in accordance with the laws of `the Province of British Columbia and the laws of Canada`, without regard to its principles of conflicts of law.
 

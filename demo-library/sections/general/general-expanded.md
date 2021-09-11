@@ -6,42 +6,42 @@
 
 ### Headings
 
-Incorporate <https://reference.legal/demo-library/provisions/general/headings>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/headings>.
 
 ### Construction of Terms
 
-Incorporate <https://reference.legal/demo-library/provisions/general/construction-of-terms>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/construction-of-terms>.
 
 ## Miscellaneous
 
 ### Good Faith
 
-Incorporate <https://reference.legal/demo-library/provisions/general/good-faith>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/good-faith>.
 
 ### Further Assurances
 
-Incorporate <https://reference.legal/demo-library/provisions/general/further-assurances>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/further-assurances>.
 
 ### Entire Agreement
 
-Incorporate <https://reference.legal/demo-library/provisions/general/entire-agreement>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/entire-agreement>.
 
 ### No waiver
 
-Incorporate <https://reference.legal/demo-library/provisions/general/no-waiver>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/no-waiver>.
 
 ### Cumulative Remedies
 
-Incorporate <https://reference.legal/demo-library/provisions/general/cumulative-remedies>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/cumulative-remedies>.
 
 ### Severability
 
-Incorporate <https://reference.legal/demo-library/provisions/general/severability>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/severability>.
 
 ### Amendment
 
-Incorporate <https://reference.legal/demo-library/provisions/general/amendment>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/amendment>.
 
 ### Counterparts
 
-Incorporate <https://reference.legal/demo-library/provisions/general/counterparts>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/counterparts>.

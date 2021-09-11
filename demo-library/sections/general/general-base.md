@@ -6,30 +6,30 @@
 
 ### Headings
 
-Incorporate <https://reference.legal/demo-library/provisions/general/headings>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/headings>.
 
 ### Construction of Terms
 
-Incorporate <https://reference.legal/demo-library/provisions/general/construction-of-terms>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/construction-of-terms>.
 
 ## Miscellaneous
 
 ### Good Faith
 
-Incorporate <https://reference.legal/demo-library/provisions/general/good-faith>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/good-faith>.
 
 ### Entire Agreement
 
-Incorporate <https://reference.legal/demo-library/provisions/general/entire-agreement>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/entire-agreement>.
 
 ### No waiver
 
-Incorporate <https://reference.legal/demo-library/provisions/general/no-waiver>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/no-waiver>.
 
 ### Severability
 
-Incorporate <https://reference.legal/demo-library/provisions/general/severability>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/severability>.
 
 ### Counterparts
 
-Incorporate <https://reference.legal/demo-library/provisions/general/counterparts>.
+Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/counterparts>.
