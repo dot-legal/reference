@@ -1,6 +1,6 @@
 [TableOfContentsEnabled]
 
-# General (Minimum)
+# General
 
 ## Interpretation
 
