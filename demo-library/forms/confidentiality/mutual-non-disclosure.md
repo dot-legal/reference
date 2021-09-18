@@ -1,8 +1,8 @@
 # Mutual Non-Disclosure Agreement
 
-The parties wish to disclose to each other certain Confidential Information for the purpose of `evaluating or undertaking a possible business relationship with or regarding the other parties` (the "**Purpose**").
+The parties want to disclose to each other Confidential Information for the purpose of `evaluating or undertaking a possible business relationship with the other parties` (the "**Purpose**").
 
-The parties, intending to be legally bound in consideration of the mutual covenants and premises set forth in this document, agree:
+The parties agree as follows.
 
 ## Template Terms
 
@@ -16,11 +16,11 @@ The term of this document will begin on `September 31, 2021` (the "**Effective D
 
 ### Non-Dislosure of Relationship
 
-Each party agrees that it will not disclose, either expressly or by implication, the existence of this document or the relationship created between the parties.
+Each party agrees that it will not disclose, directly or indirectly, the existence of this document or the relationship created between the parties.
 
 ### Termination for Convenience
 
-Any party may terminate this document by providing written notice to the other parties `30 days` in advance.  If this document is terminated for convenience by any party, the obligation of confidentiality will survive the termination for a period of `one year`.
+Any party may terminate this document by providing written notice to the other parties `30 days` in advance.  If this document is terminated early by any party, for any reason, the obligation of confidentiality will survive the termination for a period of `one year`.
 
 ## General
 
@@ -30,7 +30,9 @@ Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/gen
 
 Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/assignment>.
 
-This Agreement will be governed by and interpreted in accordance with the laws of `the Province of British Columbia and the laws of Canada`, without regard to its principles of conflicts of law.
+This document is governed by the laws of `the Province of British Columbia and the laws of Canada`, without regard to its principles of conflicts of law.
 
 ## Signature
+
+The parties are signing this agreement on `September 15, 2021`.
 
