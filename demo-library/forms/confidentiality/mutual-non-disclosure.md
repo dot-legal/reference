@@ -30,9 +30,11 @@ Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/gen
 
 Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/assignment>.
 
-This document is governed by the laws of `the Province of British Columbia and the laws of Canada`, without regard to its principles of conflicts of law.
+This document is governed by the laws of `the Province of British Columbia and the laws of Canada`.
 
 ## Signature
 
-The parties are signing this agreement on `September 15, 2021`.
+Signed by the following parties:
+
+`Party A`
 
