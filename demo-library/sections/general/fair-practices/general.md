@@ -1,3 +1,5 @@
+[TableOfContentsEnabled]
+
 # Fair Practices
 
 ## General Conduct
