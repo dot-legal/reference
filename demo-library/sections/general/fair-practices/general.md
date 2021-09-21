@@ -4,6 +4,10 @@
 
 ## General Conduct
 
+### Dispute Resolution
+
+The parties will attempt to resolve all claims or disputes related to this document initially through good faith negotiations.
+
 ### Good Faith
 
 Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/good-faith>.
