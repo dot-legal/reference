@@ -14,7 +14,7 @@ The term of this document will begin on `September 31, 2021` (the "**Effective D
 
 ## Additional Terms
 
-### Non-Dislosure of Relationship
+### Non-Disclosure of Relationship
 
 Each party agrees that it will not disclose, directly or indirectly, the existence of this document or the relationship created between the parties.
 
