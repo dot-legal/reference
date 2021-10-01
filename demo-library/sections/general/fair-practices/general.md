@@ -10,7 +10,7 @@ The parties will attempt to resolve all claims or disputes related to this docum
 
 ### Good Faith
 
-Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/good-faith>.
+Incorporate <https://reference.legal/demo-library/provisions/general/good-faith>.
 
 ### No Unannounced Modifications
 

@@ -6,7 +6,7 @@ The parties agree as follows.
 
 ## Template Terms
 
-Incorporate <https://projectbreeze.azurewebsites.net/demo-library/templates/confidentiality/mutual-non-disclosure>.  `However, only information marked or clearly communicated as confidential by Disclosing Party will be considered Confidential Information.  If Disclosing Party discloses information without making clear its intention to keep such information confidential, Disclosing Party may do so retroactively.`
+Incorporate <https://reference.legal/demo-library/templates/confidentiality/mutual-non-disclosure>.  `However, only information marked or clearly communicated as confidential by Disclosing Party will be considered Confidential Information.  If Disclosing Party discloses information without making clear its intention to keep such information confidential, Disclosing Party may do so retroactively.`
 
 ## Term
 
@@ -24,11 +24,11 @@ Any party may terminate this document by providing written notice to the other p
 
 ## General
 
-Incorporate <https://projectbreeze.azurewebsites.net/demo-library/sections/general/general-expanded>.
+Incorporate <https://reference.legal/demo-library/sections/general/general-expanded>.
 
-Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/no-joint-venture>.
+Incorporate <https://reference.legal/demo-library/provisions/general/no-joint-venture>.
 
-Incorporate <https://projectbreeze.azurewebsites.net/demo-library/provisions/general/assignment>.
+Incorporate <https://reference.legal/demo-library/provisions/general/assignment>.
 
 This document is governed by the laws of `the Province of British Columbia and the laws of Canada`.
 
