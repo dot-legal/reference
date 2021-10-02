@@ -1,6 +1,6 @@
 # Mutual Non-Disclosure Agreement
 
-The parties want to disclose to each other Confidential Information for the purpose of `evaluating or undertaking a possible business relationship with the other parties` (the "**Purpose**").
+The parties want to disclose to each other Confidential Information for the purpose of `evaluating a potential business relationship with the other parties` (the "**Purpose**").
 
 The parties agree as follows.
 
@@ -12,7 +12,7 @@ Incorporate <https://reference.legal/demo-library/templates/confidentiality/mutu
 
 The term of this document will begin on `September 31, 2021` (the "**Effective Date**") and will continue for a period of `three years`.
 
-## Additional Terms
+## Additional Optional Terms
 
 ### Non-Disclosure of Relationship
 
@@ -38,3 +38,4 @@ Signed by the following parties:
 
 `Party A`
 
+`Party B`
