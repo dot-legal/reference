@@ -1,6 +1,6 @@
 # reference.legal
 
-A framework to draft shorter legal documents.  Please visit our homepage at [https://reference.legal/](https://reference.legal/)!
+A framework to draft shorter legal documents.  Please visit our homepage at [https://reference.legal/](https://reference.legal/).
 
 ## Introduction
 
