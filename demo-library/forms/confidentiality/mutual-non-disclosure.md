@@ -36,6 +36,6 @@ This document is governed by the laws of `the Province of British Columbia and t
 
 Signed by the following parties:
 
-`Party A`
+`Party A` on `September 28, 2021`
 
-`Party B`
+`Party B` on `September 30, 2021 `
