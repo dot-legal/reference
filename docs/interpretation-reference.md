@@ -11,7 +11,7 @@ We modularize legal documents through reusable pieces of legal text, each called
 You can reference one or more Packages to shorten and simplify your document.  These lines are like hyperlinks to a set of general terms or a reference to a schedule or exhibit.  The structure for this reference is outlined in this Interpretation Reference, but the following is a simple example:
 
 ```
-Incorporate http://reference.legal/v1/provisions/general/headings/.
+Incorporate https://reference.legal/v1/provisions/general/headings/.
 ```
 
 This Interpretation Reference will set out the rules for using and understanding reference.legal.  ***Any party to a document governed by this Interpretation Reference represents that they have read and understood this Interpretation Reference.***
@@ -25,7 +25,7 @@ This Interpretation Reference will set out the rules for using and understanding
 Incorporate our standard headings clause by linking to it:
 
 ```
-Incorporate http://reference.legal/v1/provisions/general/headings/.
+Incorporate https://reference.legal/v1/provisions/general/headings/.
 ```
 
 #### Inline Reading
@@ -37,7 +37,7 @@ Packages that are incorporated into a document are read inline as if they are su
 If you want to change reference.legal's standard template, you may follow the link with plain language stating those changes.
 
 ```
-Incorporate http://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.
+Incorporate https://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.
 ```
 
 #### Locking Down the Text
@@ -45,7 +45,7 @@ Incorporate http://reference.legal/demo-library/provisions/general/force-majeure
 If you want to lock the text to exactly what you see, add a date stamp (YYYY-MM-DD format) to the end of your link.  Otherwise, we may make adjustments to keep up with best practices.  Text that is not locked down will be considered "amended from time to time" and will be deemed to be accepted by both parties.
 
 ```
-Incorporate http://reference.legal/v1/agreements/non-disclosure-agreements/mutual-non-disclosure-agreement/2020-01-08.
+Incorporate https://reference.legal/v1/agreements/non-disclosure-agreements/mutual-non-disclosure-agreement/2020-01-08.
 ```
 
 ### Reading a Document
@@ -55,7 +55,7 @@ Access the link referenced in your document with any modern web browser.  The di
 Note any additional language in the document that may change or affect the legal text.  It should immediately follow the link.
 
 ```
-Incorporate http://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.
+Incorporate https://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.
 ```
 
 ## Interpretation
@@ -66,7 +66,7 @@ Packages that are incorporated into a document are read inline as if they are su
 
 ```
 10. The headings in this document are for convenience only and do not constitute a part of this document. The headings will not be deemed to limit or affect any of the provisions contained in this document.
-11. Incorporate http://reference.legal/v1/provisions/general/counterparts/.
+11. Incorporate https://reference.legal/v1/provisions/general/counterparts/.
 12. All notices and other communications required or permitted under this document will be sent by email.
 ```
 

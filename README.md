@@ -9,7 +9,7 @@ Every clause and document from reference.legal's online clause library can be hy
 ## Quick Start
 
 1. Select a standard clause from our library at [https://reference.legal/library/](https://reference.legal/library/).
-2. Copy the URL and incorporate it into your legal document.  For example:  `Incorporate http://reference.legal/v1/provisions/general/counterparts/.`
+2. Copy the URL and incorporate it into your legal document.  For example:  `Incorporate https://reference.legal/v1/provisions/general/counterparts/.`
 3. Send out your shorter and simpler document!
 
 ## Key Benefits
@@ -24,15 +24,15 @@ Every clause and document from reference.legal's online clause library can be hy
 
 Incorporate our standard headings clause by linking to it:
 
-`Incorporate http://reference.legal/v1/provisions/general/headings/.`
+`Incorporate https://reference.legal/v1/provisions/general/headings/.`
 
 If you want to make any modifications, just call it out immediately after the link:
 
-`Incorporate http://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.`
+`Incorporate https://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.`
 
 If you want to lock the text to exactly what you see, add a date stamp (YYYY-MM-DD format) to the end of your link.  Otherwise, we may make adjustments to keep up with best practices.  Text that is not locked down will be considered "amended from time to time" and will be deemed to be accepted by both parties.
 
-`Incorporate http://reference.legal/v1/agreements/non-disclosure-agreements/mutual-non-disclosure-agreement/2020-01-08.`
+`Incorporate https://reference.legal/v1/agreements/non-disclosure-agreements/mutual-non-disclosure-agreement/2020-01-08.`
 
 ## Frequently Asked Questions
 
