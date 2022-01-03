@@ -1,0 +1,1 @@
+The provisions of this document will enure to the benefit of and will be binding upon the parties to this document and their respective heirs, executors, administrators, other legal personal representatives, successors and permitted assigns.

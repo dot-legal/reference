@@ -1,0 +1,1 @@
+This document may be signed in counterparts, each of which will be deemed an original, but all of which, taken together, constitute one and the same document.

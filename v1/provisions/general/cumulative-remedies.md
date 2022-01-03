@@ -1,0 +1,1 @@
+The rights and remedies provided by this document are cumulative, and the exercise of any right or remedy by any party, whether pursuant to this document, to any other agreement, or to law, will not preclude or waive its right to exercise any or all other rights and remedies.
