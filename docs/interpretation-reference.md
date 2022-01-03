@@ -159,4 +159,4 @@ Though GitHub is a reliable secondary store of reference.legal materials, users 
 
 ***reference.legal is not a law firm and does not offer legal advice.  The use of reference.legal creates no relationship with reference.legal in any way.  reference.legal and contributors to reference.legal offer no warranty of any kind and disclaim all forms of liability.  reference.legal is provided "as is".  Please seek independent legal advice before using reference.legal.***
 
-***reference.legal is currently in ALPHA phase, which means that virtually all parts of reference.legal, including this Interpretation Reference and the Packages may change drastically.  Please do not use reference.legal in any binding legal document.***
+***reference.legal is currently in BETA phase, which means that documents in v1 of reference.legal, will continue to be changed, but the intention shall remain the same.  Please do not use reference.legal in any high risk legal document.***
