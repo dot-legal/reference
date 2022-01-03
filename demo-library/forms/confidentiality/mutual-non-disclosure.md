@@ -1,15 +1,15 @@
 # Mutual Non-Disclosure Agreement
 
-The parties want to disclose to each other Confidential Information for the Purpose.  The parties agree as follows:
+The parties want to disclose to each other Confidential Information for the Purpose defined below.  The parties agree as follows:
 
 ## Form
 
 ### Definitions
 
-* "**Purpose**": `Evaluating a potential business relationship with the other parties.`
+* "**Purpose**": `Evaluating a potential business relationship between the parties.`
 * "**Effective Date**": `January 1, 2022`
 * "**Confidentiality Period**": `3 years`
-* "**Governing Jurisdiction**": `the Province of British Columbia, Canada`
+* "**Governing Jurisdiction**": `Province of British Columbia, Canada`
 
 ### Signatures
 
@@ -27,7 +27,7 @@ Notice Contact: `example@email.com`
 
 `Non-Disclosure of Relationship.  Each party agrees that it will not disclose, directly or indirectly, the existence of this document or the relationship created between the parties.`
 
-`Termination for Convenience.  Any party may terminate this document by providing written notice to the other parties 30 days in advance.  If this document is terminated early by any party, for any reason, the obligation of confidentiality will survive the termination for a period of one year.`
+`Termination for Convenience.  Any party may terminate this document by providing written notice to the other parties 30 days in advance.  If this document is terminated early by any party, for any reason, the obligation of confidentiality will survive the termination for a period of two years.`
 
 `Retroactive Marking Option.  Only information marked or clearly communicated as confidential by Disclosing Party will be considered Confidential Information. If Disclosing Party discloses information without making clear its intention to keep such information confidential, Disclosing Party may do so retroactively.`
 
