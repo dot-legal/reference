@@ -32,7 +32,7 @@ Packages that are incorporated into a document are read inline as if they are su
 
 If you want to change reference.legal's standard template, you may follow the link with plain language stating those changes.
 
-`Incorporate https://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.`
+`Incorporate https://reference.legal/v1/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.`
 
 #### Locking Down the Text
 
@@ -46,7 +46,7 @@ Access the link referenced in your document with any modern web browser.  The di
 
 Note any additional language in the document that may change or affect the legal text.  It should immediately follow the link.
 
-`Incorporate https://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.`
+`Incorporate https://reference.legal/v1/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.`
 
 ## Interpretation
 

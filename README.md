@@ -17,7 +17,7 @@ Every clause and document from reference.legal's online clause library can be hy
 1. Link to our clauses to reference templated text and **shorten your documents**.
 2. Absolutely **no setup or training required**.  URLs are already familiar ground.
 3. **Draft by exception**.  Call out changes after the reference so your reader doesn't have to sift through dozens of pages to find one single change.
-4. Merely curious?  **Use as much or as little as you want**.  Replace a simple [Counterparts clause](https://reference.legal/demo-library/provisions/general/counterparts/) or an entire [Mutual Non-Disclosure Agreement](https://reference.legal/demo-library/forms/confidentiality/mutual-non-disclosure/).
+4. Merely curious?  **Use as much or as little as you want**.  Replace a simple [Counterparts clause](https://reference.legal/v1/provisions/general/counterparts/) or an entire [Mutual Non-Disclosure Agreement](https://reference.legal/v1/forms/confidentiality/mutual-non-disclosure/).
 5. Read our templates once and **re-use it anywhere with any counterparty**.
 
 ## Examples
@@ -28,7 +28,7 @@ Incorporate our standard headings clause by linking to it:
 
 If you want to make any modifications, just call it out immediately after the link:
 
-`Incorporate https://reference.legal/demo-library/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.`
+`Incorporate https://reference.legal/v1/provisions/general/force-majeure/ however, "reasonable efforts" may not, under any circumstances, exceed 30 calendar days.`
 
 If you want to lock the text to exactly what you see, add a date stamp (YYYY-MM-DD format) to the end of your link.  Otherwise, we may make adjustments to keep up with best practices.  Text that is not locked down will be considered "amended from time to time" and will be deemed to be accepted by both parties.
 
