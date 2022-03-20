@@ -18,8 +18,8 @@ Representative: `John Doe, CEO`
 Notice Contact: `example@email.com`  
 **Signature:**
 
-`Party B` on `December 15, 2021`  
-Representative: `John Doe, CEO`  
+`Party B` on `December 18, 2021`  
+Representative: `Jane Smith, CEO`  
 Notice Contact: `example@email.com`  
 **Signature:**
 
