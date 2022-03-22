@@ -23,7 +23,7 @@ Notice Contact: `example@email.com`
 
 #### Contractor
 
-`Jane Smith` on `December 15, 2021`
+`Jane Smith` on `December 15, 2021`  
 Notice Contact: `example@email.com`  
 **Signature:**
 
