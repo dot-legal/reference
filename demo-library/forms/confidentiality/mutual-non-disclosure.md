@@ -35,7 +35,7 @@ Notice Contact: `1600 Pennsylvania Avenue NW, Washington, DC, 20500 USA`
 
 ## Template Terms
 
-The term of this document will begin on the Effective Date and will continue for the Agreement Term.  The confidentiality obligations set out in this agreement will survive expiration of the document during any Confidentiality Period.
+The term of this document will begin on the Effective Date and will continue for the Agreement Term.  The confidentiality obligations set out in this document will survive expiration of the document during any Confidentiality Period.
 
 Incorporate <https://reference.legal/demo-library/templates/confidentiality/mutual-non-disclosure>.
 
