@@ -41,7 +41,7 @@ Incorporate <https://reference.legal/demo-library/templates/confidentiality/mutu
 
 ## General
 
-The laws of Governing Law governs this document.  The parties consent to the jurisdiction and venue of the Jurisdiction.
+The laws of Governing Law governs this document.  The parties consent to the jurisdiction and venue of Jurisdiction.
 
 All formal notices under this document will be sent in writing to the applicable Notice Contact.
 
