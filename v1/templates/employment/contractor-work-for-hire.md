@@ -30,14 +30,9 @@ The Contractor will indemnify, defend, and hold harmless Client from and against
 
 ### Confidentiality
 
-Each of the parties under this document disclosing Confidential Information will be referred to as the "**Discloser**", and each of the parties under this document receiving Confidential Information will be referred to as the "**Recipient**".
+Incorporate <https://reference.legal/v1/provisions/confidentiality/definitions>.
 
-"**Confidential Information**" will mean all information of a Discloser that is disclosed or furnished to a Recipient or its Representatives by or on behalf of a Discloser, whether in written, oral, electronic, web-based, or other form, and includes any copies, reports, analyses, compilations, studies, notes, interpretations, or other documents prepared by a Recipient which contain, reflect, or are otherwise generated from information that:
-
-1. a reasonable person under the circumstances would recognize as confidential in nature; or
-2. that Discloser marks or otherwise makes clear its intention to keep such information confidential.
-
-Confidential Information will be used solely to further the Purpose, and Recipient will limit disclosure of Confidential Information to its employees, directors, officers, counsel, consultants, affiliates or contractors (the "**Representatives**") who have a need to know such Confidential Information and who are bound by an obligation of confidentiality arising to a level similar to this document and are notified that such information is Confidential Information and must be kept in confidence in accordance with this document.
+Incorporate <https://reference.legal/v1/provisions/confidentiality/permitted-disclosures-representatives>.
 
 If this document is terminated early by any party, for any reason, the obligation of confidentiality will survive the termination.
 
