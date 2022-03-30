@@ -18,7 +18,7 @@ The Contractor irrevocably waives, and agrees never to assert, any moral rights 
 
 ### Independent Contractor
 
-The Contractor acts as an independent contractor to the Client.  
+The Contractor acts as an independent contractor to the Client.
 
 ### Representations and Warranties
 
