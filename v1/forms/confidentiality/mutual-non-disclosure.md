@@ -37,7 +37,7 @@ Notice Contact: `1600 Pennsylvania Avenue NW, Washington, DC, 20500 USA`
 
 The term of this document will begin on the Effective Date and will continue for the Agreement Term.  The confidentiality obligations set out in this document will survive expiration of the document during any Confidentiality Period.
 
-Incorporate <https://reference.legal/demo-library/templates/confidentiality/mutual-non-disclosure>.
+Incorporate <https://reference.legal/v1/templates/confidentiality/mutual-non-disclosure>.
 
 ## General
 
@@ -45,8 +45,8 @@ The laws of Governing Law governs this document.  The parties consent to the jur
 
 All formal notices under this document will be sent in writing to the applicable Notice Contact.
 
-Incorporate <https://reference.legal/demo-library/sections/general/general-expanded>.
+Incorporate <https://reference.legal/v1/sections/general/general-expanded>.
 
-Incorporate <https://reference.legal/demo-library/provisions/general/no-joint-venture>.
+Incorporate <https://reference.legal/v1/provisions/general/no-joint-venture>.
 
-Incorporate <https://reference.legal/demo-library/provisions/general/assignment>.
+Incorporate <https://reference.legal/v1/provisions/general/assignment>.
