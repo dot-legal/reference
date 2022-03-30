@@ -8,19 +8,21 @@ The parties want to disclose to each other Confidential Information for the Purp
 
 * "**Purpose**": `Evaluating a potential business relationship between the parties.`
 * "**Effective Date**": `January 1, 2022`
-* "**Confidentiality Period**": `3 years`
-* "**Governing Jurisdiction**": `Province of British Columbia, Canada`
+* "**Agreement Term**": `2 years`
+* "**Confidentiality Period**": `3 years from Effective Date, perpetual for trade secrets`
+* "**Governing Law**": `Province of British Columbia, Canada`
+* "**Jurisdiction**": `Province of British Columbia, Canada`
 
 ### Signatures
 
-`Party A` on `December 15, 2021`  
+`Party A` on `December 1, 2021`  
 Representative: `John Doe, CEO`  
 Notice Contact: `example@email.com`  
 **Signature:**
 
-`Party B` on `December 18, 2021`  
+`Party B` on `December 15, 2021`  
 Representative: `Jane Smith, CEO`  
-Notice Contact: `example@email.com`  
+Notice Contact: `1600 Pennsylvania Avenue NW, Washington, DC, 20500 USA`  
 **Signature:**
 
 ### Optional Terms
@@ -33,18 +35,18 @@ Notice Contact: `example@email.com`
 
 ## Template Terms
 
-The term of this document will begin on the Effective Date and will continue until the end of the Confidentiality Period.
+The term of this document will begin on the Effective Date and will continue for the Agreement Term.  The confidentiality obligations set out in this document will survive expiration of the document during any Confidentiality Period.
 
-Incorporate <https://reference.legal/v1/templates/confidentiality/mutual-non-disclosure>.
+Incorporate <https://reference.legal/demo-library/templates/confidentiality/mutual-non-disclosure>.
 
 ## General
 
-This document is governed by the laws of Governing Jurisdiction.
+The laws of Governing Law governs this document.  The parties consent to the jurisdiction and venue of Jurisdiction.
 
-All formal notices under this document will be sent in writing via the applicable Notice Contact.
+All formal notices under this document will be sent in writing to the applicable Notice Contact.
 
-Incorporate <https://reference.legal/v1/sections/general/general-expanded>.
+Incorporate <https://reference.legal/demo-library/sections/general/general-expanded>.
 
-Incorporate <https://reference.legal/v1/provisions/general/no-joint-venture>.
+Incorporate <https://reference.legal/demo-library/provisions/general/no-joint-venture>.
 
-Incorporate <https://reference.legal/v1/provisions/general/assignment>.
+Incorporate <https://reference.legal/demo-library/provisions/general/assignment>.
