@@ -16,7 +16,7 @@ The Client wants to engage the Contractor for the "**Purpose**" of creating the 
 
 #### Client
 
-`Company A` on `December 15, 2021`  
+`Company A` on `December 1, 2021`  
 Representative: `John Doe, CEO`  
 Notice Contact: `example@email.com`  
 **Signature:**
@@ -24,7 +24,7 @@ Notice Contact: `example@email.com`
 #### Contractor
 
 `Jane Smith` on `December 15, 2021`  
-Notice Contact: `example@email.com`  
+Notice Contact: `1600 Pennsylvania Avenue NW, Washington, DC, 20500 USA`  
 **Signature:**
 
 ### Optional Terms
