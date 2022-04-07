@@ -53,7 +53,7 @@ Notice Contact: `1600 Pennsylvania Avenue NW, Washington, DC, 20500 USA`
 
 ## Template Terms
 
-Incorporate <https://reference.legal/v1/templates/employment/work-for-hire>.
+Incorporate <https://reference.legal/v1/templates/employment/contractor-work-for-hire>.
 
 ## General
 
