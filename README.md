@@ -8,7 +8,7 @@ Every clause and document from reference.legal's online clause library can be hy
 
 ## Quick Start
 
-1. Select a standard clause from our library at [https://reference.legal/library/](https://reference.legal/library/).
+1. Select a standard clause from our library at [https://reference.legal/clauses/](https://reference.legal/clauses/).
 2. Copy the URL and incorporate it into your legal document.  For example:  `Incorporate https://reference.legal/v1/provisions/general/counterparts/.`
 3. Send out your shorter and simpler document!
 
