@@ -8,17 +8,16 @@ Every clause and document from reference.legal's online clause library can be hy
 
 ## Quick Start
 
-1. Select a standard clause from our library at [https://reference.legal/clauses/](https://reference.legal/clauses/).
-2. Copy the URL and incorporate it into your legal document.  For example:  `Incorporate https://reference.legal/v1/provisions/general/counterparts/.`
+1. Choose a standard clause from our library at [https://reference.legal/clauses/](https://reference.legal/clauses/).
+2. Copy the URL and incorporate it into your document.  For example:  `Incorporate https://reference.legal/v1/provisions/general/counterparts/.`
 3. Send out your shorter and simpler document!
 
-## Key Benefits
+## Forms
 
-1. Link to our clauses to reference templated text and **shorten your documents**.
-2. Absolutely **no setup or training required**.  URLs are already familiar ground.
-3. **Draft by exception**.  Call out changes after the reference so your reader doesn't have to sift through dozens of pages to find one single change.
-4. Merely curious?  **Use as much or as little as you want**.  Replace a simple [Counterparts clause](https://reference.legal/v1/provisions/general/counterparts/) or an entire [Mutual Non-Disclosure Agreement](https://reference.legal/v1/forms/confidentiality/mutual-non-disclosure/).
-5. Read our templates once and **re-use it anywhere with any counterparty**.
+1. Choose a template form from our library at [https://reference.legal/forms/](https://reference.legal/forms/).
+2. Edit the document right on the page by selecting the various fields with red text.
+3. OPTIONAL: Click the download button (only available on Desktop browser) at the top of the form to download the form for Microsoft Office.
+4. Send out your document.
 
 ## Examples
 
@@ -33,6 +32,14 @@ If you want to make any modifications, just call it out immediately after the li
 If you want to lock the text to exactly what you see, add a date stamp (YYYY-MM-DD format) to the end of your link.  Otherwise, we may make adjustments to keep up with best practices.  Text that is not locked down will be considered "amended from time to time" and will be deemed to be accepted by both parties.
 
 `Incorporate https://reference.legal/v1/agreements/non-disclosure-agreements/mutual-non-disclosure-agreement/2020-01-08.`
+
+## Key Benefits
+
+1. Link to our clauses to reference templated text and **shorten your documents**.
+2. Absolutely **no setup or training required**.  URLs are already familiar ground.
+3. **Draft by exception**.  Call out changes after the reference so your reader doesn't have to sift through dozens of pages to find one single change.
+4. Merely curious?  **Use as much or as little as you want**.  Replace a simple [Counterparts clause](https://reference.legal/v1/provisions/general/counterparts/) or an entire [Mutual Non-Disclosure Agreement](https://reference.legal/v1/forms/confidentiality/mutual-non-disclosure/).
+5. Read our templates once and **re-use it anywhere with any counterparty**.
 
 ## Frequently Asked Questions
 
