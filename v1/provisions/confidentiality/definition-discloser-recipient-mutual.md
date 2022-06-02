@@ -1,0 +1,1 @@
+Each of the parties under this document disclosing Confidential Information will be referred to as the "**Discloser**", and each of the parties under this document receiving Confidential Information will be referred to as the "**Recipient**".
