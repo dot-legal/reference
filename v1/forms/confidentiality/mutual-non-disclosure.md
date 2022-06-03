@@ -1,6 +1,6 @@
 # Mutual Non-Disclosure Agreement
 
-The parties want to disclose to each other Confidential Information for the Purpose defined below.  The parties agree as follows:
+The parties want to disclose to each other Confidential Information for the Purpose defined below.  The parties agree:
 
 ## Form
 
