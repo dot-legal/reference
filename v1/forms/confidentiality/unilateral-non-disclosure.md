@@ -1,5 +1,3 @@
-[TableOfContentsEnabled]
-
 # Unilateral Non-Disclosure Agreement
 
 Discloser wants to disclose to Recipient Confidential Information for the Purpose defined below.  The parties agree:
