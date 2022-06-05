@@ -27,6 +27,8 @@ Notice Contact: `1600 Pennsylvania Avenue NW, Washington, DC, 20500 USA`
 
 ### Optional Terms
 
+`Previously Disclosed Confidential Information.  This document also applies to Confidential Information already disclosed to Recipient by Discloser before the Effective Date.  The obligation of confidentiality will apply to all previously disclosed Confidential Information.  And each Recipient represents it has not made any disclosures of Confidential Information before the Effective Date in a manner that would have been in breach of this document had it been in effect at the time.`
+
 `Non-Disclosure of Relationship.  Each party agrees that it will not disclose, directly or indirectly, the existence of this document or the relationship created between the parties.`
 
 `Termination for Convenience.  Any party may terminate this document by providing written notice to the other parties 30 days in advance.  If this document is terminated early by any party, for any reason, the obligation of confidentiality will survive the termination for a period of two years.`
