@@ -1,6 +1,6 @@
 # Amendment
 
-The parties entered into an agreement and want to make changes to that document.  Therefore, the parties hereby amend the Original Document as follows:
+The parties entered into an agreement and want to make changes to it.  Therefore, the parties hereby amend the Original Document as follows:
 
 ## Form
 
@@ -16,7 +16,7 @@ The parties entered into an agreement and want to make changes to that document.
 
 #### Amendment Details
 
-This is Amendment number `2` to the Original Document.
+This is Amendment number `1` to the Original Document.
 
 * "**Effective Date**": `December 25, 2021`
 
