@@ -37,7 +37,7 @@ Notice Contact: `1600 Pennsylvania Avenue NW, Washington, DC, 20500 USA`
 
 `Termination for Convenience.  Any party may terminate this document by providing written notice to the other parties 30 days in advance.  If this document is terminated early by any party, for any reason, the obligation of confidentiality will survive the termination for a period of two years.`
 
-`Retroactive Marking Option.  Only information marked or clearly communicated as confidential by Disclosing Party will be considered Confidential Information. If Disclosing Party discloses information without making clear its intention to keep such information confidential, Disclosing Party may do so retroactively.`
+`Retroactive Marking Option.  Only information marked or clearly communicated as confidential by Discloser will be considered Confidential Information. If Discloser discloses information without making clear its intention to keep such information confidential, Discloser may do so retroactively.`
 
 ## Template Terms
 
