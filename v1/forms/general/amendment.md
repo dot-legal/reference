@@ -8,7 +8,7 @@ The parties entered into an agreement and want to make changes to it.  Therefore
 
 #### Original Document Details
 
-* "**Original Document**": `Master Services Agreement`, including any earlier amendments
+* "**Original Document**": `Master Services Agreement`, including any earlier changes
 * "**Original Document Effective Date**": `June 31, 2020`
 * "**Original Parties**":
   * `Party A`
