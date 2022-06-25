@@ -35,7 +35,7 @@ Representative: `John Doe`
 By inserting the following new sections:
 
 * `Section 14.4 (Payment Disputes) after the existing Section 14.3 (Late Payments):`
-  * `14.4 Payment Disputes.  In the event of a payment dispute, the parties will try to settle the dispute in good faith.  If the dispute is not resolved in 10 business days, either party may refer the dispute to arbitration pursuant to Section 22.4.`
+  * `14.4 Payment Disputes.  In the event of a payment dispute, the parties will try to settle the dispute in good faith.  If the dispute is not resolved in 10 business days, either Party may refer the dispute to arbitration pursuant to Section 22.4 (Arbitration).`
 
 ### Deletions
 
