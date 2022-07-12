@@ -1,6 +1,6 @@
-# Privacy and Cookie Policy
+# Privacy Policy
 
-This policy describes how `reference.legal, including reference.legal affiliates` ("**we**", "**us**", "**our**"), processes the personal information we collect about our users, whether they are an individual or an organization ("**user**", "**you**", "**your**") of our products and services (collectively, "**Services**").`
+This document describes how `reference.legal, including reference.legal affiliates` ("**we**", "**us**", "**our**"), processes the personal information we collect about our users, whether they are an individual or an organization ("**user**", "**you**", "**your**") of our products and services (collectively, "**Services**").`
 
 ## Information We Collect
 
@@ -123,7 +123,7 @@ Incorporate <https://reference.legal/v1/sections/privacy/eu-gdpr-data-subject-ri
 
 Our Services may contain connections to other third-party services. If you visit a third-party website or use a third-party service, you should consult that service's or website's privacy policy as your use would be governed by their practices.
 
-## Changes to Our Policy
+## Changes to This Document
 
 We will occasionally update this document by publishing the changes on the web.  We encourage you to check our website periodically to ensure that you are aware of the current version of this document.
 
