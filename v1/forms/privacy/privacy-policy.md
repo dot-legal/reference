@@ -113,8 +113,11 @@ If you are a parent or guardian, you may revoke your consent at any time and exe
 
 You have certain rights over your personal information.  You may exercise the following rights by contacting us directly and making a request.  Prior to exercising the rights, we may require you to verify your identity (and in certain cases, the authority to exercise your rights), and we may also charge a small fee to fulfill the request.
 
-`Incorporate <https://reference.legal/v1/sections/privacy/us-ccpa-consumer-privacy-rights-description>.`
-`Incorporate <https://reference.legal/v1/sections/privacy/eu-gdpr-data-subject-rights-description>.`
+Depending on where you are using our Services, you may be entitled to the rights provided by the California Consumer Privacy Act or the EU General Data Protection Regulation as described in the links below.
+
+Incorporate <https://reference.legal/v1/sections/privacy/us-ccpa-consumer-privacy-rights-description>.
+
+Incorporate <https://reference.legal/v1/sections/privacy/eu-gdpr-data-subject-rights-description>.
 
 ## Third-Party Services
 
